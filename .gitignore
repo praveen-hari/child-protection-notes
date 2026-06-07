@@ -1,0 +1,24 @@
+# Exclude PDFs
+*.pdf
+
+# Exclude extracted images and text
+extracted_images/
+extracted_text/
+
+# Exclude Python script
+extract_text.py
+
+# Exclude MkDocs build output
+site/
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
