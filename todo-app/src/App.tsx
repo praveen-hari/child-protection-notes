@@ -39,7 +39,23 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Todo List</h1>
+      <h1>📝 Todo List</h1>
+
+      <div className="about">
+        <p>
+          A simple and clean task manager to help you stay organized. Add tasks,
+          mark them as complete, filter by status, and clear finished items — all
+          in one place. Built with <strong>React</strong>, <strong>TypeScript</strong>,
+          and <strong>Vite</strong>.
+        </p>
+        <ul className="feature-list">
+          <li>✅ Add new tasks by typing and pressing <kbd>Enter</kbd> or clicking <strong>Add</strong></li>
+          <li>☑️ Check off tasks when done</li>
+          <li>🗑️ Delete individual tasks with the ✕ button</li>
+          <li>🔍 Filter by <strong>All</strong>, <strong>Active</strong>, or <strong>Completed</strong></li>
+          <li>🧹 Clear all completed tasks at once</li>
+        </ul>
+      </div>
 
       <div className="input-row">
         <input
