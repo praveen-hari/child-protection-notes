@@ -39,7 +39,9 @@ function About() {
       </div>
 
       <div style={{ marginTop: '1.5rem' }}>
-        <Link to="/" className="back-link">← Back to Todo List</Link>
+        <Link to="/todos" className="back-link">← Back to Todo List</Link>
+        <span aria-hidden="true"> · </span>
+        <Link to="/" className="back-link">Home</Link>
       </div>
     </div>
   );

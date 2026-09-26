@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Todo } from './types';
+import type { Todo } from './types';
 import TodoItem from './components/TodoItem';
 import './App.css';
 
@@ -40,6 +40,7 @@ function App() {
 
   return (
     <div className="app">
+      <Link to="/" className="back-link">← Home</Link>
       <div className="nav-bar">
         <h1>📝 Todo List</h1>
         <Link to="/about" className="about-link">ℹ️ About</Link>
