@@ -28,6 +28,53 @@ body {
   margin-bottom: 10px;
 }
 
+.about h2 {
+  font-size: 1.15rem;
+  color: #5b21b6;
+  margin-bottom: 10px;
+}
+
+.about h3 {
+  font-size: 1rem;
+  color: #5b21b6;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.about-link {
+  font-size: 0.9rem;
+  color: #7c3aed;
+  text-decoration: none;
+  background: #ede9fe;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.about-link:hover {
+  background: #ddd6fe;
+}
+
+.back-link {
+  display: inline-block;
+  color: #7c3aed;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
 .feature-list {
   list-style: none;
   padding: 0;
